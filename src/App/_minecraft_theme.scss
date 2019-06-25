@@ -1,0 +1,45 @@
+.minecraftTheme {
+    width: 100%;
+    margin: 0;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-family: "Press Start 2P", cursive;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.7rem;
+        margin-bottom: 25px;
+        color: $mughal_green;
+        position: relative;
+    }
+
+    button {
+        padding: 8px;
+        background-color: $pink_lavender;
+        border: 1px solid $magenta_haze;
+        box-shadow: 2px 5px 5px $magenta_haze; 
+        cursor: pointer;
+        border-radius: 6px;
+        font-family: "Indie Flower", cursive;
+        font-size: 0.8rem;
+        font-weight: 800;
+        letter-spacing: 2px;
+        color: $jazzberry_jam;
+        position: absolute;
+    }
+
+    div {
+    width: 1000px;
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid $acajou;
+    box-shadow: 0 3px 5px $acajou;
+    background-image: url("../images/minecraft_background.jpg");
+    background-position: center;
+    margin-top: 20px;
+    }
+}

@@ -1,0 +1,20 @@
+//Style components
+@import "./reset";
+
+@import "./conteiner";
+@import "./colors";
+@import "./fonts";
+
+//Theme styles
+@import "./minecraft_theme";
+@import "./princess_theme";
+
+//Form styles
+@import "../Form/minecraft_theme_form";
+@import "../Form/princess_theme_form";
+
+//Table styles
+@import "../Table/minecraft_theme_table";
+@import "../Table/princess_theme_table";
+
+

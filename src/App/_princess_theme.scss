@@ -1,0 +1,45 @@
+.princessTheme { 
+    width: 100%;
+    margin: 0;
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        font-family: "Indie Flower", cursive;
+        letter-spacing: 3px;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: $wild_orchid;
+        position: relative;
+    }
+
+    button {
+        padding: 8px;
+        background-color: $green;
+        border: 1px solid $acajou;
+        box-shadow: 1px 2px 3px $acajou;
+        cursor: pointer;
+        font-family: "Press Start 2P", cursive;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $raisin_black;
+        position: absolute;
+    }
+
+    div {
+    width: 1000px;
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid $magenta_haze;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px $magenta_haze;
+    background-image: url("../images/disney_background.jpg");
+    background-position: center center;
+    }
+}
+
+
