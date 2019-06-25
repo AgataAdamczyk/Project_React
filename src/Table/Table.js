@@ -2,12 +2,16 @@ import React, { Component } from 'react';
 import Form from '../Form/Form';
 
 class Table extends Component {
-  
+    handler = (e, data) => {
+      e.preventDefault()
+      console.log(data)
+    }
+
     render() {
       return (
         <>
         <div>
-          < Form state={this.props.value}/>
+          < Form handler={this.handler}/>
           <table>
             <thead>
               <tr>
